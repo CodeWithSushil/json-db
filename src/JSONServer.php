@@ -1,5 +1,5 @@
 <?php
-namespace Jsondb;
+namespace App;
 
 class JSONServer {
     private $db;
