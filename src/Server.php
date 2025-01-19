@@ -1,8 +1,8 @@
 <?php
 namespace App;
 
-use App\JSONServer;
-use App\JSONDatabas;
+ use App\JSONServer;
+ use App\JSONDatabas;
 
 class Server
 {
