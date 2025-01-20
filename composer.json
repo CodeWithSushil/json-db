@@ -1,5 +1,5 @@
 {
-    "name": "jsondb/jsondb",
+    "name": "jsondbphp/jsondb",
     "description": "JSON DB as a Database for Testing APIs and minimalist project",
     "type": "library",
     "keywords": ["jsondb", "database"],
