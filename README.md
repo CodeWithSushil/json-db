@@ -1,5 +1,5 @@
-# json-db
-JSON DB for APIs Testing and minimalist project
+## json-db
+- JSON DB for APIs Testing for Your Minimalist Project
 
 ## Installation
 
