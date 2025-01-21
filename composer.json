@@ -1,8 +1,8 @@
 {
-    "name": "jsondb/jsondb",
-    "description": "JSON DB as a Database for Testing APIs and minimalist project",
+    "name": "jsondbphp/jsondb",
+    "description": "JSON DB for APIs Testing for Your Minimalist Project",
     "type": "library",
-    "keywords": ["jsondb", "database"],
+    "keywords": ["jsondb", "jsondb-server", "database"],
     "require": {
         "ext-json": "*"
     },
