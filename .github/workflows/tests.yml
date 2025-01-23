@@ -17,5 +17,5 @@ jobs:
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress --no-suggest
 
-    - name: Run PHPUnit
-      run: vendor/bin/phpunit
+    - name: Run Pest
+      run: vendor/bin/pest
