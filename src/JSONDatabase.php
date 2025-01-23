@@ -1,5 +1,6 @@
 <?php
 namespace App;
+use Exception;
 
 class JSONDatabase {
     private $filePath;
