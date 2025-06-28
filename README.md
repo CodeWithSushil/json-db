@@ -61,31 +61,25 @@ composer require jsondbphp/jsondb
 
 #### Example
 
+- First create a folder `data`.
+- Create a `users.json` file inside of data folder.
+
 ```php
+<?php
 
-// index.php
+require("vendor/autoload.php");
 
-require("vendor/autoload.php"):
-
-use Json\Database;
+use Json\Database\JsonDB;
 
 // Create DB instance
 $db = new JsonDB(__DIR__ . '/data');
 
 // Insert
-$id = $db->collection('users')->insert([
+$id = $db->insert('users', [
     'name' => 'Alice',
     'email' => 'alice@example.com'
 ]);
 
-// Find
-$user = $db->collection('users')->find($id);
-
-// Update
-$db->collection('users')->update($id, ['email' => 'new@example.com']);
-
-// Delete
-$db->collection('users')->delete($id);
 ```
 
 ---
