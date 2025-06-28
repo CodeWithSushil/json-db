@@ -1,6 +1,6 @@
 {
     "name": "jsondbphp/jsondb",
-    "description": "JsonDB: lightwegt document container",
+    "description": "JsonDB: Lightweight document container.",
     "type": "library",
     "keywords": [
       "jsondb",
