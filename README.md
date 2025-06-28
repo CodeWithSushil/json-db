@@ -1,6 +1,8 @@
 ![JsonDB](/art/jsondb.png)
 
-JsonDB: Lightweight document container
+[![Tests](https://github.com/CodeWithSushil/json-db/actions/workflows/tests.yml/badge.svg)](https://github.com/CodeWithSushil/json-db/actions/workflows/tests.yml)
+
+JsonDB: Lightweight document container.
 
 ___
 
