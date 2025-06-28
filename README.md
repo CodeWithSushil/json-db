@@ -18,6 +18,7 @@
 - 🧩 **Document-Based:** Each collection is a JSON file; each record is a structured JSON document.
 - 🧪 **CRUD Operations:** Easy-to-use API for create, read, update, and delete operations.
 - 🕵️‍♂️ **Search & Filter:** Built-in query capabilities using associative arrays and conditions.
+- [ ] Upcoming soon
 - 🔐 **JWT & Session Authentication:** Secure API with optional login/auth guard.
 - 🌐 **REST API Wrapper:** JSON RESTful interface for HTTP clients.
 - 🗃️ **Transactions & Atomic Writes:** Prevents data corruption with locking mechanisms.
@@ -52,8 +53,21 @@
 
 ## 🧑‍💻 How It Works
 
+#### Install
+
+```bash
+composer require jsondbphp/jsondb
+```
+
+#### Example
+
 ```php
-use JsonDB\JsonDB;
+
+// index.php
+
+require("vendor/autoload.php"):
+
+use Json\Database;
 
 // Create DB instance
 $db = new JsonDB(__DIR__ . '/data');
@@ -75,9 +89,3 @@ $db->collection('users')->delete($id);
 ```
 
 ---
-
-## Install
-
-```bash
-composer require jsondbphp/jsondb
-```
