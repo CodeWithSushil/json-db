@@ -1,8 +1,8 @@
-# JsonDB
-
 ![JsonDB](/art/jsondb.png)
 
-- JSON DB for APIs Testing for Your Minimalist Project
+JsonDB: Lightweight document container
+
+___
 
 ### Example
 Full example of json db
