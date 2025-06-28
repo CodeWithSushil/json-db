@@ -75,7 +75,7 @@ use Json\Database\JsonDB;
 $db = new JsonDB(__DIR__ . '/data');
 
 // Insert
-$id = $db->insert('users', [
+$db->insert('users', [
     'name' => 'Alice',
     'email' => 'alice@example.com'
 ]);
