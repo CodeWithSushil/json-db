@@ -1,5 +1,3 @@
-**JsonDB:** Lightweight Document Container for Modern PHP Apps.
-
 ![JsonDB](/art/jsondb.png)
 
 [![Tests](https://github.com/CodeWithSushil/json-db/actions/workflows/tests.yml/badge.svg)](https://github.com/CodeWithSushil/json-db/actions/workflows/tests.yml)
