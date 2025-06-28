@@ -1,4 +1,7 @@
-## json-db
+# JsonDB
+
+![JsonDB](/art/jsondb.png)
+
 - JSON DB for APIs Testing for Your Minimalist Project
 
 ### Example
