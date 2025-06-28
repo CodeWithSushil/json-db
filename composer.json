@@ -1,7 +1,7 @@
 {
     "name": "jsondbphp/jsondb",
-    "description": ",
-    "type": "library",JsonDB: Lightweight Document Container for Modern PHP Apps.",
+    "description": "JsonDB: Lightweight Document Container for Modern PHP Apps.",
+    "type": "library",
     "keywords": [
       "jsondb",
       "jsondbphp",
@@ -15,7 +15,7 @@
     },
     "require-dev": {
         "phpstan/phpstan": "^2.1",
-        "phpunit/phpunit": "*",
+        "phpunit/phpunit": "^12.2",
         "laravel/pint": "^1.22",
         "symfony/var-dumper": "^7.3"
     },
@@ -40,6 +40,11 @@
         "lint": "vendor/bin/pint",
         "unit": "vendor/bin/phpunit",
         "type": "vendor/bin/phpstan"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "preferred-install": "dist"
     },
     "minimum-stability": "dev",
     "prefer-stable": true   
