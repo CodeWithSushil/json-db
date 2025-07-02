@@ -80,6 +80,20 @@ $db->insert('users', [
     'email' => 'alice@example.com'
 ]);
 
+// findAll
+$result = $db->findAll('users');
+print_r($resull);
+
+// find
+$result = $db->find('users', 'name');
+print_r($result);
+
+// update
+$db->update('users', 'name', 'Alice');
+
+// delete
+$db->delete('users', 'name');
+
 ```
 
 ---
