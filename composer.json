@@ -14,9 +14,10 @@
         "ext-mbstring": "*"
     },
     "require-dev": {
+        "laravel/pint": "^1.24",
+        "myclabs/deep-copy": "^1.13",
         "phpstan/phpstan": "^2.1",
         "phpunit/phpunit": "^12.2",
-        "laravel/pint": "^1.22",
         "symfony/var-dumper": "^7.3"
     },
     "license": "MIT",
