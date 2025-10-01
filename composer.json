@@ -15,12 +15,12 @@
     },
     "require-dev": {
         "fakerphp/faker": "^1.24",
-        "laravel/pint": "^1.24",
+        "laravel/pint": "^1.25",
         "mockery/mockery": "^1.6",
         "myclabs/deep-copy": "^1.13",
         "phpstan/phpstan": "^2.1",
-        "phpunit/php-code-coverage": "^12.3",
-        "phpunit/phpunit": "^12.2",
+        "phpunit/php-code-coverage": "^12.4",
+        "phpunit/phpunit": "^12.3",
         "symfony/var-dumper": "^7.3"
     },
     "license": "MIT",
