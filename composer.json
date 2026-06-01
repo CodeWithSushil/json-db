@@ -9,19 +9,16 @@
       "database"
     ],
     "require": {
-        "php": "^8.2",
+        "php": "^8.3",
         "ext-json": "*",
         "ext-mbstring": "*"
     },
     "require-dev": {
-        "fakerphp/faker": "^1.24",
-        "laravel/pint": "^1.25",
-        "mockery/mockery": "^1.6",
-        "myclabs/deep-copy": "^1.13",
-        "phpstan/phpstan": "^2.1",
-        "phpunit/php-code-coverage": "^12.4",
-        "phpunit/phpunit": "^12.3",
-        "symfony/var-dumper": "^7.3"
+        "laravel/pint": "*",
+        "phpstan/extension-installer": "*",
+        "phpstan/phpstan": "*",
+        "phpunit/phpunit": "*",
+        "tomasvotruba/type-coverage": "*"
     },
     "license": "MIT",
     "autoload": {
