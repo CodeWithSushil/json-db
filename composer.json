@@ -14,11 +14,11 @@
         "ext-mbstring": "*"
     },
     "require-dev": {
-        "laravel/pint": "*",
-        "phpstan/extension-installer": "*",
-        "phpstan/phpstan": "*",
-        "phpunit/phpunit": "*",
-        "tomasvotruba/type-coverage": "*"
+        "laravel/pint": "^1.32",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan": "^2.2",
+        "phpunit/phpunit": "^13.4",
+        "tomasvotruba/type-coverage": "^2.4"
     },
     "license": "MIT",
     "autoload": {
@@ -45,7 +45,10 @@
     "config": {
         "optimize-autoloader": true,
         "sort-packages": true,
-        "preferred-install": "dist"
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true   
