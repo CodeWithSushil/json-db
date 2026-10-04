@@ -38,9 +38,19 @@
         }
     ],
     "scripts": {
-        "lint": "vendor/bin/pint",
+        "pint": "pint --parallel",
+        "analyse": "phpstan analyse",
+        "lint": [
+          "@pint",
+          "@analyse"
+        ],
+        "pint:test": "pint --parallel --test",
         "unit": "vendor/bin/phpunit",
-        "type": "vendor/bin/phpstan"
+        "test": [
+          "@pint:test",
+          "@analyse",
+          "@unit"
+        ]
     },
     "config": {
         "optimize-autoloader": true,
